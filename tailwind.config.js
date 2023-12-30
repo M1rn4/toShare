@@ -9,6 +9,17 @@ export default {
       fontFamily: {
         'inter': ['Inter', 'sans-serif']
       },
+      colors: {
+        primary: '#1E1E4B',
+        secondary: '#2288ff',
+        accent: '#32D4D2',
+        neutral: '#020309',
+        info: '#00dfff',
+        'base-100': '#0A0C24',
+        success: '#00ef9f',
+        warning: '#ab5600',
+        error: '#ff5080',
+      },
       fontSize: {
         'h1': '4.938rem',
         'h2': '3.688rem',
@@ -49,10 +60,12 @@ export default {
     themes: [
       {
         mytheme: {
-          "primary": "#1E1E4B",
+          "primary": "#0A0C24",
+          "primary2": "#1E1E4B",
           "secondary": "#2288ff", 
           "accent": "#32D4D2",    
           "neutral": "#020309",
+          "complementary": "#1E1F36",
           "base-100": "#0A0C24",
           "info": "#00dfff",
           "success": "#00ef9f",

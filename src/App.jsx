@@ -1,4 +1,4 @@
-import IndexPage from "./pages/Index";
+import IndexPage from "./pages/IndexPage.jsx";
 
 export default function App() {
   return (

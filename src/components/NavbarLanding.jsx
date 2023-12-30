@@ -1,5 +1,7 @@
 import logo from '../assets/img/logo.svg';
-import { MAX_WIDTH } from '../constants';
+import { MAX_WIDTH, STYLES_ANCHOR_NAVBAR, TEXT_ANCHOR_NAVBAR_SIZE_RESPONSIVE } from '../constants';
+
+
 
 
 export default function Navbar() {
@@ -10,14 +12,14 @@ export default function Navbar() {
         <img src={logo} />
       </div>
       <div>
-        <ul className="grid grid-cols-3 gap-[30px] md:text-md lg:text-lg   text-white  font-normal">
-            <li>
+        <ul className={`grid grid-cols-3 gap-[30px] ${TEXT_ANCHOR_NAVBAR_SIZE_RESPONSIVE}`}>
+            <li className={`${STYLES_ANCHOR_NAVBAR}`}>
               Home
             </li>
-            <li>
+            <li className={`${STYLES_ANCHOR_NAVBAR}`}>
               About
             </li>
-            <li>
+            <li className={`${STYLES_ANCHOR_NAVBAR}`}>
               Contact us
             </li>
         </ul>
