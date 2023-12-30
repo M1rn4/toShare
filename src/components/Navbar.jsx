@@ -1,10 +1,11 @@
 import logo from '../assets/img/logo.svg';
+import { MAX_WIDTH } from '../constants';
 
 
 export default function Navbar() {
 
   return (
-    <div className="navbar justify-between w-[1280px] h-[122px] p-10 max-w-[1350px]">
+    <div className={`navbar justify-between w-[1280px] h-[122px] p-10 max-w-[${MAX_WIDTH}]`}>
         <div className="">
         <img src={logo} />
       </div>
