@@ -6,24 +6,21 @@
 
 
 .circle-right {
-  width: 300px;
-  height: 300px;
+
   z-index: 0;
   background: linear-gradient(to top, #172a6d 10%, #231b72 90%);
   filter: blur(120px);
 }
 
 .circle-center {
-  width: 300px;
-  height: 300px;
+
   z-index: 0;
   background: linear-gradient(to top, #231b72 90%, #231b72 90%);
   filter: blur(120px);
 }
 
 .circle-left {
-  width: 300px;
-  height: 300px;
+
   z-index: 0;
   background: linear-gradient(to top, #231b72 10%, #172a6d 90%);
 
