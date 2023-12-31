@@ -21,22 +21,22 @@ export default {
         error: '#ff5080',
       },
       fontSize: {
-        'h1': '4.938rem',
-        'h2': '3.688rem',
-        'h3': '2.938rem',
-        'h4': '2.063rem',
-        'h5': '1.5rem',
-        'h6': '1.25rem',
-        'sub1': '1rem', 
-        'sub2': '0.875rem',  
-        'body1': '1.5rem', 
-        'body2': '1.25rem', 
-        'body3': '1rem', 
-        'body4': '0.875rem',
-        'button-medium': '1rem',
-        'button-small': '0.875rem',
-        'caption': '0.75rem',
-        'overline': '0.625rem',
+        'h1': '79.008px', // 4.938rem * 16px
+        'h2': '59.008px', // 3.688rem * 16px
+        'h3': '47.008px', // 2.938rem * 16px
+        'h4': '33.008px', // 2.063rem * 16px
+        'h5': '24px',     // 1.5rem * 16px
+        'h6': '20px',     // 1.25rem * 16px
+        'sub1': '16px',   // 1rem * 16px
+        'sub2': '14px',   // 0.875rem * 16px
+        'body1': '24px',  // 1.5rem * 16px
+        'body2': '20px',  // 1.25rem * 16px
+        'body3': '16px',  // 1rem * 16px
+        'body4': '14px',  // 0.875rem * 16px
+        'button-medium': '16px', // 1rem * 16px
+        'button-small': '14px',  // 0.875rem * 16px
+        'caption': '12px',       // 0.75rem * 16px
+        'overline': '10px',      // 0.625rem * 16px
       },
       fontWeight: {
         bold: 700,

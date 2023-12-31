@@ -7,7 +7,7 @@ import { MAX_WIDTH, STYLES_ANCHOR_NAVBAR, TEXT_ANCHOR_NAVBAR_SIZE_RESPONSIVE } f
 export default function Navbar() {
 
   return (
-    <div className={`navbar justify-between w-[1280px] h-[122px] p-10 max-w-[${MAX_WIDTH}]`}>
+    <div className={`navbar justify-between w-[1280px] h-[122px] p-10 max-w-[${MAX_WIDTH}] z-10`}>
         <div className="">
         <img src={logo} />
       </div>
