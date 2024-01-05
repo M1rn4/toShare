@@ -5,6 +5,7 @@ import Navbar from "../components/NavbarLanding.jsx";
 import ButtonIcon from "../components/buttons/ButtonIcon.jsx";
 import { STYLES_BUTTON_OVERLINE } from "../constants/index.js";
 import { useParticles } from "../hooks/useParticles.jsx";
+import WalletSelection from "../components/WalletSelection.jsx";
 
 
 
@@ -44,6 +45,7 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
+      <WalletSelection />
     </div>
     {
       init && (
