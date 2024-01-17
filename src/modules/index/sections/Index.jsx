@@ -1,4 +1,8 @@
 
+import {
+  metamaskWallet,
+  useConnect
+} from "@thirdweb-dev/react";
 import Particles from "@tsparticles/react";
 import { IoIosPlayCircle } from "react-icons/io";
 import { LuWallet2 } from "react-icons/lu";
@@ -12,6 +16,8 @@ import ModalWalletSelection from "../components/WalletSelection.jsx";
 const walletConfig = metamaskWallet();
 
 export default function Index() {
+  const connect = useConnect();
+
 
   const { init, options } = useParticles();
 
